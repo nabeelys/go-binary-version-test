@@ -5,9 +5,7 @@
 	"postUpdateOptions": [
 		"gomodTidy"
 	],
-	"force": {
-		"constraints": {
-			"go": "<=1.17"
-		}
+	"constraints": {
+		"go": "<=1.17"
 	}
 }
