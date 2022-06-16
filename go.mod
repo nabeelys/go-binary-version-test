@@ -1,4 +1,4 @@
-module nabeelys/ go-binary-version-test
+module nabeelys/go-binary-version-test
 
 go 1.18
 
