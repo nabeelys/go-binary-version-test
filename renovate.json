@@ -2,10 +2,12 @@
 	"extends": [
 		"config:base"
 	],
-	"constraints": {
-		"go": "1.17"
-	},
 	"postUpdateOptions": [
 		"gomodTidy"
-	]
+	],
+	"force": {
+		"constraints": {
+			"go": "<=1.17"
+		}
+	}
 }
